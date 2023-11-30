@@ -1,0 +1,77 @@
+body{
+    background-color: aqua;
+    /* background-color: #f1f1f1; */
+   
+   
+}
+.main{
+    width: 80%;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.movie-card{
+    
+    width: 115%;
+    background-color:#fff;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    background-color: #fff;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.movie-card .title{
+    
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.movie-card.plot{
+    margin-bottom: 9px;
+}
+.movie-card .rating{
+    margin-bottom:30px ;
+    font-weight: 600;
+}
+.movie-card .price{
+    margin-top: 11px;
+}
+.left{
+    height: 214px;
+    width: 140px;
+}
+.right{
+    margin-left: 20px;
+}
+.star-dis{
+    margin-left: 290px;
+}
+.fev-button {
+    margin-left: 780px;
+    background-color: blue;
+    
+}
+.cart-button{
+    background-color: purple;
+}
+.star-dis .star-btn{
+    width: 5px;
+    padding: 15px;
+    margin-bottom: 41px;
+    margin-top: -43px;
+    
+}   
+.star-dis .stars{
+  height: 10px;
+  margin-bottom: 56px;
+
+}
+.footer .rating{
+    margin-top: 75px;
+}
